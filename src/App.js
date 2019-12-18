@@ -3,7 +3,6 @@ import logo from "./logo.svg";
 import "./App.css";
 import { simpleAction } from "./actions/simpleAction";
 import { connect } from "react-redux";
-import subtotalSelector from './selectors/simpleSelector'
 
 class App extends Component {
   constructor(props) {
@@ -11,7 +10,6 @@ class App extends Component {
     this.state = {};
   }
   render() {
-    console.log('state', this.props,);
     return (
       <div className="App">
         <header className="App-header">
